@@ -1,0 +1,43 @@
+.weather-card {
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 20vh;
+  min-width: 20vw;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #a39b8b;
+}
+
+.weather-heading {
+  padding: 10px;
+}
+
+.weather-heading > span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.weather-country {
+  background-color: #0a1f44;
+  color: #f1e9db;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+}
+
+.weather-temp {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.weather-img > img {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-desc {
+  font-size: 1.4rem;
+}
